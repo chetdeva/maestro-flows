@@ -1,0 +1,19 @@
+appId: in.swiggy.android
+---
+- launchApp:
+    appId: "in.swiggy.android"
+- tapOn:
+    id: "in.swiggy.android:id/search_bar"
+- inputText: ${RESTAURANT}
+- tapOn:
+    id: "in.swiggy.android:id/list_item_title"
+    index: 0
+    optional: true
+- tapOn:
+    id: "in.swiggy.android:id/title"
+    index: 0
+- tapOn:
+    id: "in.swiggy.android:id/quantity_text_1"
+    index: 0
+- tapOn: "Checkout"
+

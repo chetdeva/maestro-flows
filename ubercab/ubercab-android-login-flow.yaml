@@ -1,0 +1,21 @@
+appId: com.ubercab
+---
+- launchApp:
+    appId: "com.ubercab"
+    clearState: true
+- tapOn:
+    text: "While using the app"
+    optional: true
+- tapOn: "Get Started"
+- tapOn:
+    text: "NONE OF THE ABOVE"
+    optional: true
+- tapOn:
+    id: "PHONE_NUMBER"
+- inputText: ${USERNAME}
+- tapOn: "Continue"
+- tapOn: "Login with password"
+- inputText: ${PASSWORD}
+- tapOn:
+    id: "com.android.systemui:id/back"
+- tapOn: "Next Arrow right"

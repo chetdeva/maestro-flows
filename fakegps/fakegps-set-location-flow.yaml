@@ -1,0 +1,14 @@
+appId: com.blogspot.newapphorizons.fakegps
+---
+- launchApp:
+    appId: "com.blogspot.newapphorizons.fakegps"
+- tapOn:
+    text: "ACCEPT"
+    optional: true
+- tapOn: "More options"
+- tapOn: "Search"
+- tapOn: "LOCATION"
+- tapOn: "City/Country"
+- inputText: ${LOCATION}
+- tapOn: "OK"
+- tapOn: "Start"
