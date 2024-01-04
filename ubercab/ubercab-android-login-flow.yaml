@@ -3,6 +3,7 @@ appId: com.ubercab
 - launchApp:
     appId: "com.ubercab"
     clearState: true
+    clearKeychain: true
 - tapOn:
     text: "While using the app"
     optional: true
@@ -17,5 +18,7 @@ appId: com.ubercab
 - tapOn: "Login with password"
 - inputText: ${PASSWORD}
 - tapOn:
-    id: "com.android.systemui:id/back"
+    id: title
 - tapOn: "Next Arrow right"
+
+# maestro test -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD ubercab/ubercab-android-login-flow.yaml

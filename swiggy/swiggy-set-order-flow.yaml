@@ -17,3 +17,4 @@ appId: in.swiggy.android
     index: 0
 - tapOn: "Checkout"
 
+# maestro test -e RESTAURANT=$RESTAURANT swiggy/swiggy-set-order-flow.yaml
