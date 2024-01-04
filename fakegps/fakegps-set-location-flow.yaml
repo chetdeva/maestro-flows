@@ -12,3 +12,5 @@ appId: com.blogspot.newapphorizons.fakegps
 - inputText: ${LOCATION}
 - tapOn: "OK"
 - tapOn: "Start"
+
+# maestro test -e LOCATION=$LOCATION fakegps/fakegps-set-location-flow.yaml
