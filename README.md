@@ -1,19 +1,19 @@
 # Maestro Flows
 
-List of sample maestro flows to E2E test apps which can also be used for everyday development.
+List of sample maestro flows to E2E test apps. These can also be used for everyday development.
 
 [How to install maestro](https://maestro.mobile.dev/getting-started/installing-maestro)
 
-App Flows
+## App Flows
 
 1. Fake GPS
-    - fakegps-set-location-flow
+    - [fakegps-set-location-flow.yaml](./fakegps/fakegps-set-location-flow.yaml)
 
 2. Swiggy
-    - swiggy-set-order-flow
+    - [swiggy-set-order-flow.yaml](./swiggy/swiggy-set-order-flow.yaml)
 
 3. Uber
-    - ubercab-android-login-flow
+    - [ubercab-android-login-flow.yaml](./ubercab/ubercab-android-login-flow.yaml)
 
 ## Contributing
 

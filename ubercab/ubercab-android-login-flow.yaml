@@ -18,7 +18,7 @@ appId: com.ubercab
 - tapOn: "Login with password"
 - inputText: ${PASSWORD}
 - tapOn:
-    id: title
+    id: "title"
 - tapOn: "Next Arrow right"
 
 # maestro test -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD ubercab/ubercab-android-login-flow.yaml

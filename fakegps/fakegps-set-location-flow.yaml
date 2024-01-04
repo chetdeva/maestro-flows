@@ -8,7 +8,6 @@ appId: com.blogspot.newapphorizons.fakegps
 - tapOn: "More options"
 - tapOn: "Search"
 - tapOn: "LOCATION"
-- tapOn: "City/Country"
 - inputText: ${LOCATION}
 - tapOn: "OK"
 - tapOn: "Start"
