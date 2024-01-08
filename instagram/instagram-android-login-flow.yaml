@@ -1,0 +1,22 @@
+appId: com.instagram.android
+---
+- launchApp:
+    appId: "com.instagram.android"
+    clearState: true
+    clearKeychain: true
+- tapOn:
+    text: "NONE OF THE ABOVE"
+    optional: true
+- tapOn: "Username, email address or mobile number"
+- inputText: ${USERNAME}
+- tapOn: "Password"
+- inputText: ${PASSWORD}
+- tapOn: "Log In"
+- tapOn:
+    text: "Not now"
+    optional: true
+- tapOn:
+    text: "Not now"
+    optional: true
+
+# maestro test -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD instagram/instagram-android-login-flow.yaml
